@@ -1,0 +1,37 @@
+{
+  "name": "smash-streams",
+  "version": "0.0.1",
+  "description": "Smash your node streams together and consume them as one stream on the other end.",
+  "main": "./lib/index.js",
+  "typings": "./lib/index.d.ts",
+  "scripts": {
+    "test": "mocha test/index.spec.ts --require ts-node/register",
+    "clean": "rimraf lib",
+    "prebuild": "npm run clean",
+    "build": "tsc --version && tsc",
+    "prepublish": "npm run build && npm run clean-tests",
+    "postpublish": "git push origin master && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickvdyck/smash-streams.git"
+  },
+  "keywords": [
+    "gulp",
+    "jspm"
+  ],
+  "author": "Nick Van Dyck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nickvdyck/smash-streams/issues"
+  },
+  "homepage": "https://github.com/nickvdyck/smash-streams#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "2.4.5",
+    "rimraf": "2.5.2",
+    "ts-node": "0.5.5",
+    "typescript": "1.7.5"
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "charset": "utf8",
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": true,
+        "removeComments": true,
+        "sourceMap": true,
+        "outDir": "lib"
+    },
+    "files": [
+        "typings/references.d.ts",
+        "src/index.ts"
+    ]
+}
