@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "charset": "utf8",
+        "target": "es5",
+        "module": "commonjs"
+    },
+    "files": [
+        "../typings/references.d.ts",
+        "./index.spec.ts"
+    ]
+}
