@@ -17,8 +17,10 @@
     "url": "git+https://github.com/nickvdyck/smash-streams.git"
   },
   "keywords": [
-    "gulp",
-    "jspm"
+    "streams",
+    "gulpplugin",
+    "merge",
+    "smash"
   ],
   "author": "Nick Van Dyck",
   "license": "MIT",
