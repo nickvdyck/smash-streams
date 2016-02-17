@@ -1,6 +1,6 @@
 {
   "name": "smash-streams",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Smash your node streams together and consume them as one.",
   "main": "./lib/index.js",
   "typings": "./lib/index.d.ts",
