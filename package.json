@@ -1,7 +1,7 @@
 {
   "name": "smash-streams",
   "version": "0.0.1",
-  "description": "Smash your node streams together and consume them as one stream on the other end.",
+  "description": "Smash your node streams together and consume them as one.",
   "main": "./lib/index.js",
   "typings": "./lib/index.d.ts",
   "scripts": {
